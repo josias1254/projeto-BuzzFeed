@@ -7,14 +7,19 @@
     <button (click)="mudar(0)">Que tipo de cliente você é no Ifood</button>
     <button (click)="mudar(1)">Qual seu gosto culinário</button>
     </div>
+    <div class="bar">
+      <div class="progress" [style.width]="progress"></div>
+    </div>
 
   <div class="titulo">
     <h3>Quiz: {{ title }}</h3>
   </div>
 
+
   <div *ngIf="!finished" class="questions">
     <h3>{{ questionSelected.question }}</h3>
   </div>
+
 
   <div *ngIf="!finished" class="options">
     <button
@@ -25,6 +30,8 @@
       {{ option.name }}
     </button>
   </div>
+
+
 
   <button class="voltar" *ngIf="volta" (click)="voltar()">
     Questão Anterior

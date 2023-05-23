@@ -174,3 +174,12 @@ top:1px;
 .menubar > button:active{
   background-color: #882a2a;
 }
+.bar{
+  height: 10px;
+}
+.progress{
+  background-color: rgba(255, 0, 0, 0.404);
+  height: 100%;
+  transition: all 0.2s;
+  border-radius: 10px;
+}
