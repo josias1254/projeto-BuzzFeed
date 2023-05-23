@@ -1,0 +1,153 @@
+{
+"quizzes":[
+  {
+  "title":"Que tipo de cliente você é no Ifood",
+  "questions":[
+    {
+      "id":1,
+      "question": "Você não vive sem Ifood",
+      "options":[
+        {"id": 1, "name":"Concordo", "alias":"C"},
+        {"id": 2, "name":"Não concordo", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual sua maior dificuldade na hora pedir um Ifood",
+      "options":[
+        {"id": 1, "name":"Indecisão", "alias":"A"},
+        {"id": 2, "name":"Preço", "alias":"B"},
+        {"id": 3, "name":"Falta de opções", "alias":"D"},
+        {"id": 4, "name":"Nenhuma", "alias":"C"}
+
+      ]
+    },
+    {
+      "id":3,
+      "question": "Como você escolhe o que pedir no Ifood",
+      "options":[
+        {"id": 1, "name":"Vejo taxa de entrega", "alias":"B"},
+        {"id": 2, "name":"Vejo a avaliação do estabelecimento", "alias":"A"},
+        {"id": 3, "name":"Vejo o tempo estimado de Entrega", "alias":"D"},
+        {"id": 4, "name":"Peço a primeira coisa que aparecer", "alias":"C"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Toda semana pede Ifood",
+      "options":[
+        {"id": 1, "name":"Concordo", "alias":"C"},
+        {"id": 2, "name":"Discordo", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Quando o pedido demora, qual sua atitude?",
+      "options":[
+        {"id": 1, "name":"Apenas espero chegar", "alias":"C"},
+        {"id": 2, "name":"Ligo logo pro estabelecimento", "alias":"A"},
+        {"id": 3, "name":"Reclamo pro motoboy e ainda dou 1 Estrela", "alias":"D"},
+        {"id": 4, "name":"Nenhuma das respostas acima", "alias":""}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Com qual dessas opções você se identifica?",
+      "options":[
+        {"id": 1, "name":"Sempre peço as mesmas coisas de sempre", "alias":"C"},
+        {"id": 2, "name":"Gosto de explorar e procurar todas as opções", "alias":"A"},
+        {"id": 3, "name":"É raro eu pedir Ifood", "alias":"D"},
+        {"id": 4, "name":"Sempre dou um jeito de diminuir o preço final", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A":{"resposta":"O Indeciso","descricao":"Você é aquele tipo de cliente que fica minutos ou até horas procurando o que pedir, explora o Ifood todinho e muitas vezes você acaba desistindo e vai cozinhar em casa mesmo."},
+    "B":{"resposta":"O mestre dos cupons","descricao":"Você vive procurando promoções e um jeito de pagar mais barato, e só pede Ifood quando tem cupom."},
+    "C":{"resposta":"O freguês","descricao":"É raro você ficar uma semana se quer sem pedir Ifood, é um de seus Apps favoritos e é até assinante do Clube Ifood, sempre arranja uma desculpa ou um motivo pra pedir aquele Ifood."},
+    "D":{"resposta":"O esquecido","descricao":"Você até pede Ifood, mas é muito raro, pede uma vez e esquece que esse App maravilhoso existe."}
+  }
+},
+
+{
+  "title":"Qual culinária do exterior tem seu gosto",
+  "questions":[
+    {
+      "id":1,
+      "question": "Você prefere:",
+      "options":[
+        {"id": 1, "name":"Doce", "alias":"AD"},
+        {"id": 2, "name":"Salgado", "alias":""}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Você gosta de comida apimentada?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"F"},
+        {"id": 2, "name":"Não", "alias":""}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Qual seu tipo de prato preferido",
+      "options":[
+        {"id": 1, "name":"Massa", "alias":"AF"},
+        {"id": 2, "name":"Mariscos/Frutos do Mar", "alias":"C"},
+        {"id": 3, "name":"Leve com saladas e veduras", "alias":"CE"},
+        {"id": 4, "name":"Gourmet", "alias":"D"},
+        {"id": 5, "name":"Pratos Agridoce", "alias":"EF"},
+        {"id": 6, "name":"Comida exótica", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Você gosta de comida feita com Cerveja/Álcool ?",
+      "options":[
+        {"id": 1, "name":"Sim", "alias":"D"},
+        {"id": 2, "name":"Não", "alias":""}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Você prefere:",
+      "options":[
+        {"id": 1, "name":"Comida com sabor mais forte", "alias":"FC"},
+        {"id": 2, "name":"Comida com sabor suave", "alias":"DA"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Que tipo de acompanhamento você prefere",
+      "options":[
+        {"id": 1, "name":"Purês", "alias":"D"},
+        {"id": 2, "name":"Molhos", "alias":"AF"},
+        {"id": 2, "name":"Arroz/Lentilhas", "alias":"C"},
+        {"id": 2, "name":"Snacks", "alias":"F"}
+
+      ]
+    },
+      {
+      "id":7,
+      "question": "Que tipo de bebida gosta de beber enquanto come",
+      "options":[
+        {"id": 1, "name":"Vinho", "alias":"AD"},
+        {"id": 2, "name":"Cerveja", "alias":"AF"}
+
+      ]
+    }
+  ],
+  "results":{
+    "A":{"resposta":"Culinária Italiana","descricao":"Culinária com pratos simples porém com combinações de sabores bem definidas e saborosas, com alguns molhos básicos e leves ao paladar."},
+    "B":{"resposta":"Culinária Chinesa","descricao":"Culinária que conta com pratos que trazem o contraste das cores, aromas e sabores de cada prato, com pratos agridoces, picantes, quentes e frios."},
+    "C":{"resposta":"Culinária Japonesa","descricao":"Culinária com bastante personalidade, com pratos minimalistas com pouca proteinas e especiarias, a comida japoonesa também se caracteriza como uma das mais saudaveis do mundo."},
+    "D":{"resposta":"Culinária Francesa","descricao":"A Alta-Gastronomia, que conta com pratos mais leves em porções menores e molhos mais leves ao paladar, que tem ênfase na apresentação rápida, delicada e refinada."},
+    "E":{"resposta":"Culinária Árabe","descricao":"Culinária que utiliza muitos frutos e legumes, com bastante uso de grãos e a utilização de temperos e especiarias. "},
+    "F":{"resposta":"Culinária Mexicana","descricao":"Culinária que contem pratos versáteis e saborosos e predominantemente apimentados."}
+
+  }
+}
+
+
+]
+}
